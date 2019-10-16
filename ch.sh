@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git filter-branch --env-filter '
+git filter-branch -f --env-filter '
 
 OLD_NAME="haha"
 OLD_EMAIL="your-old-email@example.com"
